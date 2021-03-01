@@ -1,9 +1,44 @@
 .heading {
     color: darkblue;
     background-color: #ccc;
-    border
+    border: 4px solid black;
+    text-align: center;
 }
 
 .blue {
+    color: blue;
     background: url(img/s21U.jpg) no-repeat 50px 1px;
 }
+
+img[alt="s21U"] {
+    border: 4px solid green;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    height: 25px;
+    width: 150px;
+    border: 1px solid #000;
+}
+
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1,
+h3,
+p {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
