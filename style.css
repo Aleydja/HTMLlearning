@@ -1,17 +1,50 @@
+head,
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    color: cornflowerblue;
+    font-style: italic;
+    font-size: 30px;
+    list-style-type: none;
+    font-variant: small-caps;
+    font-weight: 200;
+    
+}
 .heading {
-    color: darkblue;
-    background-color: #ccc;
-    border: 4px solid black;
+    color: black;
+    font-size: 30px;
+    background-color: #eaeaea;
+    font-weight: 400
     text-align: center;
 }
 
-.blue {
-    color: blue;
-    background: url(img/s21U.jpg) no-repeat 50px 1px;
+.short-description {
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 16px;
 }
 
+.description {
+   color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.description2{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+
 img[alt="s21U"] {
-    border: 4px solid green;
+    border: 4px solid;
+    height: 100%;
+    width: 100%;
 }
 
 .list {
@@ -19,8 +52,9 @@ img[alt="s21U"] {
 }
 
 .list li {
-    height: 25px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
     border: 1px solid #000;
 }
 
@@ -36,8 +70,14 @@ p {
     text-align: center;
 }
 
-p {
-    font-size: 20px;
+
+input[type="text"],
+input[type="password"] {
+    color: red;
+    width: 400px;
+    
+        
+    
 }
 
 
