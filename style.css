@@ -6,7 +6,7 @@ body {
 .menu {
     color: cornflowerblue;
     font-style: italic;
-    font-size: 20px;
+    font-size: 15px;
     list-style-type: none;
     font-variant: small-caps;
     font-weight: 100;
@@ -91,42 +91,12 @@ input[type="password"] {
     color: green;
 }
 
-.menu li {
-    height: 30px;
-    width: 200px;
-    list-style-type: none;
-    border: 1px solid;
-    text-align: center;
-}
-
-.menu li:first-child {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.menu li:last-child {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.menu li:nth-child(2n-1) {
-    background-color: #ccc;
-}
-
-.menu li:nth-child(2) a {
-    color: orange;
-}
-
 .list li:last-child::after {
     content: " new";
     color: blueviolet;
     text-transform: uppercase;
 }
 
-.menu li:hover:after {
-    content: " >>";
-    color: red;
-}
 
 img[alt=logo] {
     height: 100px;
@@ -134,9 +104,6 @@ img[alt=logo] {
     
 }
 
-.menu {
-    display: inline-block
-}
 
 input[type="text"]:active,
 input[type="password"]:hover {
@@ -154,3 +121,32 @@ input[type="text"]:first-letter {
     font-size: 30px;
     
 }
+
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 150px;
+    background-color: bisque;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    background-color: darkred;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.content {
+    height: 400px;
+    background-color: #E1E0E1; 
+}
+
+.footer {
+    height: 100px;
+    background-color: #905BAE;
+}
+
