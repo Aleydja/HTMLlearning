@@ -13,42 +13,23 @@ body {
 
 }
 
-.heading h3 {
-    color: black;
-    font-size: 30px;
-    background-color: #eaeaea;
-    font-weight: 400 text-align: center;
-}
 
-.short-description p {
-    color: black;
-    font-size: 18px;
-    font-style: italic;
-    line-height: 16px;
-    display: block;
-}
 
-.description {
-    color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
 
-.description2 {
-    font-weight: bold;
-    font-size: 20px;
 
-}
 
 
 img[alt="s21U"] {
-    outline: 4px solid;
-    height: 150px;
-    width: 150px;
+    outline: 1px solid;
+    height: 200px;
+    width: 200px;
     float: left;
+    margin-top: 1px;
+    margin-left: 1px;
+
 }
+
+
 
 img[alt="s21U"]:hover {
     outline: none;
@@ -60,7 +41,7 @@ img[alt="s21U"]:hover {
 
 .list li {
     height: 100%;
-    width: 100%;
+    width: 90%;
     text-align: center;
     border: 1px solid #000;
 }
@@ -153,8 +134,13 @@ input[type="text"]:first-letter {
     background-color: #905BAE;
 }
 
-.footer a,
-        p {
+.footer a {
+    display: block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.footer p {
     display: block;
     float: right;
     margin-top: 40px;
@@ -179,8 +165,44 @@ input[type="text"]:first-letter {
     height: 35px;
     padding-top: 15px;
 }
+.heading {
+    padding-top: 10px;
+    color: red;
+    font-size: 30px;
+}
+.heading2 {
+    clear: both;
+    padding-top: 10px;
+    color: red;
+    font-size: 30px;
+}
 
-.short-discriptionn {
-    display: block;
-    height: 500px;
+.description2 {
+    font-size: 22px;
+    color: Yellow;
+    text-align: center;
+}
+
+.description {
+    clear: both;
+}
+
+.short_description {
+    color: darkblue;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.byu { 
+    overflow: hidden;
+    margin-top: 10px;
+   padding-left: 150px;
+    
+}
+
+
+input[type="submit"]:hover {
+     background-color: blue;
+}
+input[type="submit"]:active {
+     background-color: aquamarine;
 }
