@@ -243,71 +243,79 @@ body {
 
 .featured-goods-list {
     list-style-type: none;
-    
+
 }
 
 .list-product {
+    width: 270px;
+    height: 270px;
     display: inline-block;
     margin: 15px;
+    float: left;
+    text-decoration: none;
 }
 
-.list-product-back {
-    position: relative;
-      
-}
-
-.list-product-text {
-    list-style-type: none;
+.feature-link {
     display: block;
-}
-.feature-h3 {
     width: 270px;
-    position: absolute;
-    display: block;
+    height: 270px;
+    text-decoration: none;
+
+}
+
+.list-product-1 {
+    background-image: url(img/back.svg)
+}
+
+.featured-button {
+    background-image: url(img/arrow.svg) 48px 48px;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-decoration: none;
     text-align: center;
-    top: 129px;
+    margin-top: 62px;
+    margin-left: 111px;
+    float: left;
+}
+
+.feature-h3 {
+    clear: both;
     color: #212121;
-font-size: 22px;
-font-weight: 700;
-font-style: normal;
-letter-spacing: normal;
-text-align: center;
-    
-    
-}  
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding-top: 19px;
+
+}
 
 .feature-text {
-    width: 270px;
-    position: absolute;
-    display: block;
-    text-align: center;
-    top: 169px;
+    width: 233px;
     color: #6c6c6c;
-font-size: 14px;
-font-weight: 300;
-font-style: normal;
-letter-spacing: normal;
-text-align: center;
-    line-height: 21.91px;
-    
-}
-
-.feature-circle {
-    text-decoration: none;
-     width: 48px;
-    height: 48px;
-    position: absolute;
-    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
     text-align: center;
-    right: 111px;
-    top: 62px;
-    border-radius: 24px;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-background-color: #ffffff;
+    line-height: 21.91px;
+    padding-top: 12px;
+    padding-left: 16px;
     
+
 }
 
-img[alt="arrow"] {
-    margin-top: 14px;
+.list-product-2 {
+    background-image: url(img/product-2.jpg);
 }
 
+.list-product-3 {
+    background-image: url(img/product-3.jpg);
+}
+
+.list-product-4 {
+    background-image: url(img/product-4.png);
+}
