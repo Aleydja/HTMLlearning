@@ -3,11 +3,17 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
 
 }
+
+
 
 .header {
     width: 100%;
@@ -49,10 +55,75 @@
     margin-right: 13px;
 }
 
+.logos span {
+    color: #f16d7f;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.68px;
+}
+
 .form {
     display: flex;
     align-items: center;
     margin-left: 37px;
+}
+
+
+
+
+
+
+.form__browse {
+    height: 38px;
+    padding: 0px 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+    color: #222222;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+}
+
+.form {
+    height: 38px;
+}
+
+.search_text {
+    width: 281px;
+    height: 38px;
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    border-left: none;
+
+}
+
+.search_text::placeholder {
+    color: #a4a4a4;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    letter-spacing: 0.35px;
+    padding-left: 16px;
+}
+
+.form__search {
+    height: 38px;
+padding: 0 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    border-radius: 0 3px 3px 0;
+    border-left: none;
 }
 
 
@@ -65,32 +136,129 @@
 .cart {
     display: flex;
     align-items: center;
+    margin-right: 26px;
 }
 
 .acc {
     display: flex;
     align-items: center;
+    height: 38px;
+    background-color: #f16d7f;
+    padding: 0 19px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    letter-spacing: 0.38px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu__list {}
+
+.menu__link {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+
+}
+
+.promo {
+    height: 614px;
+    background-color: #e8e8e8;
+}
+
+.promo__content {
+    height: 100%;
+    background-image: url(img/promo.jpg);
+    background-position: 0 -51px;
+
+}
+
+.promo__text {
+    margin-top: 224px;
+    float: left;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+    line-height: 43px;
+
+}
+
+.promo__text__big {
+    color: #222222;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.promo__text__mini {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.promo__text__mini span {
+    color: #f16d7f;
 }
 
 
+.offer__big {
+    width: 560px;
+    height: 542px;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.offer__small {
+    width: 560px;
+    height: 261px;
+    background-color: brown;
+}
 
 
-
-.form__browse {
-    height: 38px;
-    width: 87px;
-    text-decoration: none;
+.offer {
     display: flex;
-    align-items: center;
-    text-align: justify;
-    border-radius: 3px 0 0 3px;
-    border: 1px solid #e6e6e6;
-    background-color: #cdcdcc;
-    background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
-    color: #222222;
-    font-size: 14px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.offer__content div:first-child {
+    margin-bottom: 20px;
+}
+
+.offer_text {
+    padding: 20px 20px;
+}
+
+.offer__text {
+    padding: 20px 20px;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 26px;
+    position: absolute;
+}
+
+.offer__1 {
+    float: left;
 }
