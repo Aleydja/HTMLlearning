@@ -78,6 +78,7 @@ body
     font-style: normal
     letter-spacing: 0.68px
 
+
 .form 
   display: flex
   align-items: center
@@ -112,6 +113,8 @@ body
     border-left: none
 
 
+
+
 .fa-caret-down
   padding-left: 7px
 
@@ -129,31 +132,51 @@ body
     letter-spacing: 0.35px
     padding-left: 16px
 
+
+
 .cart__logo
   display: flex
   align-items: center
   margin-right: 26px
+  &:hover .cart__window
+    display: block
 
-.container__cart__menu
+.container__cart
   width: 225px
   margin: 0 auto
 
-.cart__menu
+
+.cart__window
+  display: block
   width: 262px
   position: absolute
   top: 50px
+  left: -15px
   border-radius: 5px
   background-color: #ffffff
   border: 1px solid #ececec
   padding-top: 5px
+  &:before
+    content: ""
+    display: block
+    width: 10px
+    height: 10px
+    background-color: white
+    position: absolute
+    top: -6px
+    left: 26px
+    transform: rotate(45deg)
+    border-top: 1px solid #ececec
+    border-left: 1px solid #ececec
+
 
 .cart__product
-  display: flex
-  justify-content: space-between
-  align-items: center
-  border-bottom: 1px solid #ededed
-  padding-bottom: 16px
-  padding-top: 16px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border-bottom: 1px solid #ededed
+    padding-bottom: 16px
+    padding-top: 16px
 
 .cart__h3
   margin-bottom: 10px

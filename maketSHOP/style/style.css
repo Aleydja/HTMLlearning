@@ -151,20 +151,38 @@ body {
   align-items: center;
   margin-right: 26px;
 }
+.cart__logo:hover .cart__window {
+  display: block;
+}
 
-.container__cart__menu {
+.container__cart {
   width: 225px;
   margin: 0 auto;
 }
 
-.cart__menu {
+.cart__window {
+  display: block;
   width: 262px;
   position: absolute;
   top: 50px;
+  left: -15px;
   border-radius: 5px;
   background-color: #ffffff;
   border: 1px solid #ececec;
   padding-top: 5px;
+}
+.cart__window:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+  top: -6px;
+  left: 26px;
+  transform: rotate(45deg);
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
 }
 
 .cart__product {
